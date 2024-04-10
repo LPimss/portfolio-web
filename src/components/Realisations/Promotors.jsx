@@ -24,7 +24,8 @@ function Promotors() {
               Il possible pour l'administrateur d'ajouter des véhicules au catalogue.<br></br>
               Les utilisateurs peuvent se connecter et mettre en favoris des véhicules, ils peuvent aussi changer leurs infos personnelles eux-mêmes<br></br>
               Il reste pas mal de corrections visuels, et quelques changements pratiques au niveau du traitement, je suis toujours en contact avec l'entreprise et le projet se terminera donc prochainement.
-              <br></br>Il est trouvable à l'adresse : <a className="underline" href="https://promotors59.wstr.fr">promotors59.wstr.fr</a> Pour avoir un meilleur visuel.
+              <br></br>Il est trouvable à l'adresse : <a className="underline" href="https://promotors59.wstr.fr">promotors59.wstr.fr</a> Pour avoir un meilleur visuel.<br></br>
+              Il a été réalisé en php/css/sql sans framework.
               </p>
         </div>
     )

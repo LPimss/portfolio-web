@@ -11,8 +11,8 @@ import C1_1 from './components/Sous-Competences/c1.1';
 import C1_2 from './components/Sous-Competences/c1.2';
 import C1_3 from './components/Sous-Competences/c1.3';
 import C1_4 from './components/Sous-Competences/c1.4';
-import C1_5 from './components/Sous-Competences/c1.4';
-import C1_6 from './components/Sous-Competences/c1.4';
+import C1_5 from './components/Sous-Competences/c1.5';
+import C1_6 from './components/Sous-Competences/c1.6';
 import C2_1 from './components/Sous-Competences/c2.1';
 import C2_2 from './components/Sous-Competences/c2.2';
 import C2_3 from './components/Sous-Competences/c2.3';
@@ -30,8 +30,10 @@ import C6_2 from './components/Sous-Competences/c6.2';
 import C6_3 from './components/Sous-Competences/c6.3';
 import C6_4 from './components/Sous-Competences/c6.4';
 
-import Promotors from './components/Stages/Promotors';
-import Aparte from './components/Stages/Aparte';
+import Promotors from './components/Realisations/Promotors';
+import Aparte from './components/Realisations/Aparte';
+import Guetprimeur from './components/Realisations/Guetprimeur';
+import Cashcash from './components/Realisations/Cashcash';
 
 
 
@@ -76,6 +78,8 @@ function App() {
 
         <Route path="/Promotors" element={<Promotors />} />
         <Route path="/Aparte" element={<Aparte />} />
+        <Route path="/Guetprimeur" element={<Guetprimeur />} />
+        <Route path="/Cashcash" element={<Cashcash />} />
 
 
 

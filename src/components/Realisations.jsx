@@ -10,20 +10,20 @@ const Realisations = () => {
 
             <div className="flex flex-wrap justify-center gap-8 mx-10">
               {/* Première ligne de divs */}
-              <div className="border border-aparte1 p-8 w-80 h-auto rounded-xl">
-                <img className=' mx-auto w-auto h-24' src='../img/aparte.png'></img>
-                <p className='mt-6 text-center text-promotors-blue'></p>
-                <Link to="/GuetPrimeur"><p className='mt-6 text-center text-black font-bold underline '>Découvrir</p></Link>
+              <div className="border border-guetprimeur-orange p-8 w-80 h-auto rounded-xl">
+                <img className=' mx-auto w-auto h-24' src='../img/guetprimeur.png'></img>
+                <p className='mt-6 text-center text-promotors-blue'>Nous avons réalisé en groupe de 4 le projet guetprimeur, étant une application web permttant de faire le lien entre un primeur (basé sur Reims) et les potentiels acheteurs.</p>
+                <Link to="/GuetPrimeur"><p className='mt-6 text-center text-guetprimeur-orange font-bold underline '>Découvrir</p></Link>
               </div>
-              <div className=" border-promotors-green border p-8 w-80 h-auto rounded-xl">
-                <img className=' mx-auto w-auto h-auto' src='../img/promotors.jpeg'></img>
-                <p className='mt-6 text-center text-promotors-blue'></p>
-                <Link to="/Cashcash"><p className='mt-6 text-center text-black font-bold underline '>Découvrir</p></Link>
+              <div className=" border-cashcash border p-8 w-80 h-auto rounded-xl">
+                <img className=' mx-auto w-auto h-24' src='../img/cashcash.png'></img>
+                <p className='mt-6 text-center text-promotors-blue'>L'objectif de cashcash était de réaliser une application web permettant de gérer des interventions d'intsallation de matériels faites par des techniciens et gérées par des assistants.</p>
+                <Link to="/Cashcash"><p className='mt-6 text-center text-cashcash font-bold underline '>Découvrir</p></Link>
               </div>
             </div>
           </div>
 
-          <div className="flex flex-wrap justify-center gap-8 mx-10 mt-8">
+          <div className="flex flex-wrap justify-center gap-8 mx-10 mb-8 mt-8">
               {/* Deuxième ligne de divs */}
               <div className="border border-aparte1 p-8 w-80 h-auto rounded-xl">
                 <img className=' mx-auto w-auto h-24' src='../img/aparte.png'></img>

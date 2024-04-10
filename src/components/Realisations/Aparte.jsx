@@ -27,7 +27,8 @@ function Aparte() {
               Chaque texte/image est modifiable en compte administrateur.<br></br>
               La page de contact est fonctionnelle lorsque le site web est hebergé, et possède un serveur web.
               Les textes et images étaient présents pour les tests, il fallait donc que la propriétaire du site y mette son contenu afin de finaliser,
-              ça n'a jamais été fait et donc jamais été publié.</p>
+              ça n'a jamais été fait et donc jamais été publié.<br></br>
+              Le site a été réalisé en php/css/sql sans framework.</p>
         </div>
     );
 }
