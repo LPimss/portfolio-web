@@ -5,7 +5,7 @@ const Accueil = () => {
   <>
     <div className="flex flex-col items-center justify-center h-1/2 bg-gray-300">
       <div className="rounded-full w-36 h-36 bg-gray-300 flex items-center justify-center mb-4">
-        <img src="..\img\shrek.png" alt="Image" className="rounded-full w-32 h-32" />
+        <img src="/img/shrek.png" alt="Image" className="rounded-full w-32 h-32" />
       </div>
       <div className="text-4xl">Kélian Roulez</div>
         <div className="mx-52 my-10 text-center">
@@ -17,7 +17,7 @@ const Accueil = () => {
 
       <div className='flex flex-col  w-1/2 items-center border-r-4 border-black'>
         <a href='../doc/cv.pdf' target='_blank'>
-        <img className='w-56 h-80' src='..\img\cv.png' alt='CV'></img>
+        <img className='w-56 h-80' src='/img/cv.png' alt='CV'></img>
         <div>
           Cliquez pour obtenir un aperçu
         </div>
@@ -27,19 +27,19 @@ const Accueil = () => {
       <div className='flex flex-col justify-center items-center w-1/2'>
       <h2 className='text-xl  font-semibold'>Compétences</h2>
       <div className='flex items-center gap-x-4 my-4'>
-        <img className='w-12 h-12' src='..\img\html.png'></img>
+        <img className='w-12 h-12' src='/img/html.png'></img>
         <p className='text-xl'>HTML</p>
       </div>
       <div className='flex items-center gap-x-4 my-4'>
-        <img className='w-12 h-12' src='..\img\css.png'></img>
+        <img className='w-12 h-12' src='/img/css.png'></img>
         <p className='text-xl'>CSS</p>
       </div>
       <div className='flex items-center gap-x-4 my-4'>
-        <img className='w-12 h-10' src='..\img\php.png'></img>
+        <img className='w-12 h-10' src='/img/php.png'></img>
         <p className='text-xl'>PHP</p>
       </div>
       <div className='flex items-center gap-x-4 my-4'>
-        <img className='w-12 h-12' src='..\img\java.png'></img>
+        <img className='w-12 h-12' src='/img/java.png'></img>
         <p className='text-xl'>Java</p>
       </div>
     </div>
