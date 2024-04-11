@@ -8,7 +8,7 @@ const Accueil = () => {
       </div>
       <div className="text-6xl">Kélian Roulez</div>
         <div className="mx-52 my-10 text-center text-4xl">
-        Etudiant à Gaston Berger en 2eme SIO SLAM à Lille
+        Etudiant à Gaston Berger en 2eme année de SIO SLAM à Lille
         </div>
     </div>
 
