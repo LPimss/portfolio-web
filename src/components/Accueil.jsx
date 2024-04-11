@@ -16,7 +16,6 @@ const Accueil = () => {
     <div className='flex mb-4 my-12 justify-center'>
 
       <div className='flex flex-col  w-1/2 items-center border-r-4 border-black'>
-        <h2 className='text-xl my-8 font-semibold'>Infos</h2>
         <a href='../doc/cv.pdf' target='_blank'>
         <img className='w-56 h-80' src='..\img\cv.png' alt='CV'></img>
         <div>
@@ -26,7 +25,7 @@ const Accueil = () => {
       </div>
 
       <div className='flex flex-col justify-center items-center w-1/2'>
-      <h2 className='text-xl my-8 font-semibold'>Compétences</h2>
+      <h2 className='text-xl  font-semibold'>Compétences</h2>
       <div className='flex items-center gap-x-4 my-4'>
         <img className='w-12 h-12' src='..\img\html.png'></img>
         <p className='text-xl'>HTML</p>
