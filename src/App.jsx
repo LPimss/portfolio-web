@@ -34,6 +34,7 @@ import Promotors from './components/Realisations/Promotors';
 import Aparte from './components/Realisations/Aparte';
 import Guetprimeur from './components/Realisations/Guetprimeur';
 import Cashcash from './components/Realisations/Cashcash';
+import ParcoursCertif from './components/Realisations/ParcoursCertif';
 
 
 
@@ -80,21 +81,10 @@ function App() {
         <Route path="/Aparte" element={<Aparte />} />
         <Route path="/Guetprimeur" element={<Guetprimeur />} />
         <Route path="/Cashcash" element={<Cashcash />} />
-
-
-
-
-
-
+        <Route path="/ParcoursCertif" element={<ParcoursCertif />} />
       </Route>
     </Routes>
   );
 }
 
 export default App;
-
-
-
-
-
-
