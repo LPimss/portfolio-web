@@ -5,11 +5,10 @@ const Accueil = () => {
   <>
     <div className="flex flex-col items-center justify-center h-1/2 bg-gray-300">
       <div className="rounded-full w-36 h-36 bg-gray-300 flex items-center justify-center mb-4">
-        <img src="/img/shrek.png" alt="Image" className="rounded-full w-32 h-32" />
       </div>
-      <div className="text-4xl">Kélian Roulez</div>
-        <div className="mx-52 my-10 text-center">
-          Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.
+      <div className="text-6xl">Kélian Roulez</div>
+        <div className="mx-52 my-10 text-center text-4xl">
+        Etudiant à Gaston Berger en 2eme SIO SLAM à Lille
         </div>
     </div>
 
